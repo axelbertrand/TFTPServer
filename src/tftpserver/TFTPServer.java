@@ -21,7 +21,8 @@ public class TFTPServer {
      */
     public static void main(String[] args) {
         try {
-            int Cr_em = STF.sendFile("test.txt", InetAddress.getByName("127.0.0.1"));
+            int Cr_em = STF.sendFile("test.txt", InetAddress.getByName("134.214.116.152"));
+            System.out.println("CR_em = " + Cr_em);
         } catch (UnknownHostException ex) {
             Logger.getLogger(TFTPServer.class.getName()).log(Level.SEVERE, null, ex);
         }
