@@ -76,10 +76,8 @@ public class STF {
             fis.close();
             
         } catch (IOException ex) {
-            Logger.getLogger(STF.class.getName()).log(Level.SEVERE, null, ex);
             return -1;
         } catch (Exception ex) { 
-            Logger.getLogger(STF.class.getName()).log(Level.SEVERE, null, ex);
             return 1;
         }
         
